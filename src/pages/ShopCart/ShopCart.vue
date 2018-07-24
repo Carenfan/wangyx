@@ -4,10 +4,8 @@
      <div class="wrap">
        <ShopCart></ShopCart>
      </div>
-
    </div>
 </template>
-
 
 <script>
   import Header from '../../components/Header/Header.vue'
@@ -26,7 +24,8 @@
 
 .wrap{
   width: 100%;
-  margin-top: 2.2rem;
+  margin-top: 2rem;
   margin-bottom: 1.5rem;
+
 }
 </style>

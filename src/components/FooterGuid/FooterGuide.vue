@@ -2,7 +2,7 @@
 <div>
   <footer class="footerContainer">
       <span class="guide_item"  @click="goto('/Msite')">
-        <img class="tabBar Msite" src="./images/home2.png"></img>
+        <img class="tabBar Msite" src="./images/home2.png">
         <span class="txt" >首页</span>
       </span>
     <span class="guide_item" @click="goto('/Shiwu')" >
@@ -10,15 +10,15 @@
         <span  class="txt"  >识物</span>
       </span>
     <span class="guide_item" @click="goto('/Types')">
-        <img class="tabBar Types" src="./images/types1.png" ></img>
+        <img class="tabBar Types" src="./images/types1.png" >
         <span class="txt"  >分类</span>
       </span>
     <span class="guide_item" @click="goto('/ShopCart')">
-        <img class="tabBar ShopCart" src="./images/cart1.png" ></img>
+        <img class="tabBar ShopCart" src="./images/cart1.png" >
         <span class="txt"  >购物车</span>
       </span>
     <span class="guide_item"  @click="goto('/Personal')">
-        <img class="tabBar Personal" src="./images/personal1.png" ></img>
+        <img class="tabBar Personal" src="./images/personal1.png" >
         <span class="txt"  >个人</span>
       </span>
   </footer>
@@ -37,9 +37,7 @@
   }
 </script>
 <style>
-  body{
-    background-color: #d9d9d9;
-  }
+
   .footerContainer {
     position: fixed;
     display: flex;

@@ -12,28 +12,28 @@
        <div class="scroll-container ">
          <ul class="list">
            <li class="listItem  ">
-             <a class="txt ">推荐</a>
+             <span class="txt txt1">推荐</span>
            </li>
            <li class="listItem"  >
-             <a class="txt  ">居家 </a>
+             <span class="txt">居家 </span>
            </li>
            <li class="listItem"  >
-             <a class="txt :after">鞋包配饰 </a>
+             <span class="txt :after">鞋包配饰 </span>
            </li>
            <li class="listItem  ">
-             <a class="txt ">推荐</a>
+             <span class="txt">推荐</span>
            </li>
            <li class="listItem"  >
-             <a class="txt  ">居家 </a>
+             <span class="txt">居家 </span>
            </li>
            <li class="listItem"  >
-             <a class="txt :after">鞋包配饰 </a>
+             <span class="txt :after">鞋包配饰 </span>
            </li>
            <li class="listItem"  >
-             <a class="txt">服装 </a>
+             <span class="txt">服装 </span>
            </li>
            <li class="listItem"  >
-             <a class="txt">电器 </a>
+             <span class="txt">电器 </span>
            </li>
          </ul>
        </div>
@@ -95,56 +95,42 @@
     margin-right: 0.2rem;
   }
   .serach-content{
-    color: #000000;
+    color: #414141;
     display: block;
   }
+.scroll{
+  width: 100%;
+  display: flex;
+  overflow: scroll;
+  background-color: #ffffff;
+}
 
-  .scroll-container{
-    width: 100%;
-    display: flex;
-    overflow: hidden;
-  }
  .list{
     width: 100%;
     float: left;
-    display: inline-flex;
-    /*display :flex;*/
-    justify-content: space-around;
-    flex-shrink: 0 ; /*!*文字不换行*!*/
-    overflow: scroll;
-    background-color: #ffffff;
-
-  }
- .listItem {
     display: flex;
-    justify-content: space-around;
     font-size: 0.4rem;
-    padding-top: 0.1rem;
-    padding-bottom: 0.1rem;
+    padding-left: 0.3rem;
 
   }
- .listItem .txt{
-    display: inline-block;
-    position: relative;
-    padding: 0 0.2rem;
-    font-size: 0.4rem;
-    width: 1.2rem;
-    height: 0.4rem;
+ ::-webkit-scrollbar{
+   display: none;
+ }
+ .listItem {
+    width: 1.8rem;
+    margin-right: 0.5rem;
     text-align: center;
-    background-color: #FFFFFF;
+    vertical-align: middle;
   }
-   .listItem:active{
-    color: #b4282d;
-  }
-   .listItem:first-child :after{
-    position: absolute;
-    content: "";
-    left: 0;
-    bottom: 0;
-    height: 0.05rem;
-    width: 90%;
-    margin-left: 0.1rem;
-    background-color: #b4282d;
+ .txt{
+   display:inline-block;
+
+ }
+ .txt1{
+   border-bottom: solid 3px #cc0031;
+   margin-bottom: 0.15rem;
+   line-height: 0.5rem;
+   color: #b4282d;
   }
 
 

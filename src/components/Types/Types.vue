@@ -66,9 +66,9 @@
 
 <style>
   .TypeWrap{
-    border-top: solid 2px #d9d9d9;
+    border-top: solid 2px rgba(242, 245, 244, 0);
     width: 100%;
-    padding-top: 0.4rem;
+    margin-top: 0.4rem;
 }
   .TypeWrapLeft{
     width: 3rem;
@@ -95,6 +95,7 @@
     font-size: 0.6rem;
   }
   .TypeWrapRight{
+
     width:7rem;
     float: right;
     display: flex;
