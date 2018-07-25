@@ -299,9 +299,10 @@
     justify-content: space-around;
 
   }
-  .guards>.item>.arrows{
+  .arrows{
     display: flex;
-    /*justify-content: space-around;*/
+    align-items: center;
+    justify-content: space-around;
   }
  .ar{
     display: inline-block;
@@ -324,9 +325,9 @@
    height:0.8rem;
    font-size: 0.6rem;
    line-height: 0.6rem;
-   text-align: center;
-   vertical-align: middle;
-
+   display: flex;
+   align-items: center;
+   justify-content: center;
   }
   .theBrandFrom .txt{
    font-size: 0.4rem;

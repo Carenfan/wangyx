@@ -72,16 +72,17 @@
 }
   .TypeWrapLeft{
     width: 3rem;
-    vertical-align: middle;
-    text-align: center;
+
     float: left;
     background-color: #ffffff;
 
   }
   .TypeWrapLeftList{
     width: 100%;
-    font-size: 0.45rem;
+    font-size: 0.4rem;
     overflow: scroll;
+   text-align: center;
+    vertical-align: middle;
   }
   .TypeWrapListItem{
     width: 100%;
@@ -89,10 +90,12 @@
     line-height: 0.6rem;
     padding-bottom: 0.7rem;
     padding-top: 0.4rem;
+
   }
   .TypeWrapListItem:first-child{
     color: #cc0031;
     font-size: 0.6rem;
+    border-left: 2px #cc0031 solid;
   }
   .TypeWrapRight{
 

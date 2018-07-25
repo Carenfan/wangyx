@@ -46,9 +46,11 @@
   }
 </script>
 
-
 <style>
-
+body
+{
+  background-color: #d9d9d9;
+}
 .wrap{
   width: 100%;
   margin-bottom: 1.8rem;

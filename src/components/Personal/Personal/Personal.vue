@@ -7,12 +7,12 @@
          </div>
        </div>
       <div class="ToLogin">
-        <div class="Numlogin">
-          <!--<img src="../../img/login/aa.png" >-->
+        <div class="Numlogin NumloginSelect">
+          <i class="LoginPN"></i>
           <span> 手机号码登录</span>
         </div>
         <div class="Maillogin">
-          <!--<img src="../../img/login/aa.png" >-->
+          <i  class="LoginM"></i>
           <span> 邮箱账号登录 </span>
         </div>
         <a class="QRej">手机号快捷注册 > </a>
@@ -50,8 +50,7 @@
   text-align: center;
   vertical-align: middle;
   width: 100%;
-  height:5.5rem;
-  line-height: 6rem;
+  line-height: 5.5rem;
 }
 .LoginImg img{
   width: 3.5rem;
@@ -105,8 +104,7 @@
     display:flex;
     align-items: center;
     justify-content: center;
-    padding-top: 4.8rem;
-    padding-bottom: 8.4rem;
+    padding-top: 3rem;
     line-height: 0.4rem;
     font-size: 0.4rem;
 
@@ -119,7 +117,34 @@
   border-right: solid 2px #878787;
 
 }
+.Numlogin{
+  position: relative;
 
+}
+.LoginPN{
+  background-image: url("../../img/login/aa.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 0.6rem;
+  height:0.6rem;
+  left: 2.6rem;
+  overflow: hidden;
+  background-position: 0rem -0.6rem;
+
+}
+.Maillogin{
+  position: relative;
+}
+.LoginM{
+  background-image: url("../../img/login/aa.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 0.6rem;
+  height:0.6rem;
+  left: 2.6rem;
+  background-position: 0rem 0rem;
+
+}
   .Q{
     padding-left: 0.4rem;
     padding-right: 0.4rem;
