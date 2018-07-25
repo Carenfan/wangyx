@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63b0cce2-7bc7-4fac-936f-d22016a2a81a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mock/a.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mock/category.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mock/mockServer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mock/msite.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/mock/shiwu.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/actions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/getters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/mutaions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/mutation-types.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/setters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/store/state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Msite/MsiteBrandProduce/MsiteBrandProduce.vue" afterPath="$PROJECT_DIR$/src/components/Msite/MsiteBrandProduce/MsiteBrandProduce.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Msite/MsiteSlide/MsiteSlide.vue" afterPath="$PROJECT_DIR$/src/components/Msite/MsiteSlide/MsiteSlide.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Personal/Personal/Personal.vue" afterPath="$PROJECT_DIR$/src/components/Personal/Personal/Personal.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Shiwu/ShiwuSlide/ShiwuSlide.vue" afterPath="$PROJECT_DIR$/src/components/Shiwu/ShiwuSlide/ShiwuSlide.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Types/Types.vue" afterPath="$PROJECT_DIR$/src/components/Types/Types.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/Msite/Msite.vue" afterPath="$PROJECT_DIR$/src/pages/Msite/Msite.vue" />
-    </list>
+    <list default="true" id="63b0cce2-7bc7-4fac-936f-d22016a2a81a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -124,7 +100,7 @@
         <entry file="file://$PROJECT_DIR$/src/vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="680">
-              <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -413,7 +389,7 @@
       <workItem from="1532305074411" duration="61839000" />
       <workItem from="1532433261992" duration="137000" />
       <workItem from="1532434691248" duration="11499000" />
-      <workItem from="1532477838378" duration="13528000" />
+      <workItem from="1532477838378" duration="14129000" />
     </task>
     <task id="LOCAL-00001" summary="Msite页面的完善">
       <created>1532265160812</created>
@@ -468,7 +444,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235581000" />
+    <option name="totallyTimeSpent" value="236182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="783" y="26" width="1154" height="1012" extended-state="0" />
@@ -946,7 +922,7 @@
     <entry file="file://$PROJECT_DIR$/src/vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
-          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding />
         </state>
       </provider>
